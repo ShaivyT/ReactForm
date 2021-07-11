@@ -10,8 +10,8 @@ function App() {
         <BiArchive className="inline-block text-red-400 align-top" />
         Your appointments!
       </h1>
-      <Search />
       <AddAppointment />
+      <Search />
     </div>
   );
 }
