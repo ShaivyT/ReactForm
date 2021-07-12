@@ -12,10 +12,6 @@ function App() {
   let [sortBy, setSortBy] = useState("petName");
   let [orderBy, setOrderBy] = useState("asc");
 
-  const handleChange = (ownerName) => {
-    setAppointmentList(appointmentList.push(ownerName));
-  }
-
   const filteredAppointments = appointmentList.filter(
     item => {
       return (
